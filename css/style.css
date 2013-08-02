@@ -55,11 +55,11 @@ section > h1 {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
 }
 section > h1:hover {
   color: #f4f4f4;
@@ -72,6 +72,7 @@ section > h1:hover {
 
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
   section {
-    background:url('../img/kanye-iphone.jpg')  no-repeat top;
+    background:url('../img/kanye-iphone.jpg');
+        height:100%;
     }
 }
