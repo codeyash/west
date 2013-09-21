@@ -1,22 +1,27 @@
 $(function () {
 
-    $(".nav-btn").click(function () {
-        $('body').toggleClass('is-offscreen');
-    });
-
-    $('html').on("swipeleft", function () {
-        $('body').removeClass('is-offscreen');
+    $(".trigger").click(function () {
+        $('.navWrap').toggleClass('open');
     });
 
     $('html').on("swiperight", function () {
-        $('body').addClass('is-offscreen');
+        $('.navWrap').removeClass('open');
     });
 
-    $('.nav-btn, a').bind('touchstart', function (e) {
+    $('html').on("swipeleft", function () {
+        $('.navWrap').addClass('open');
+    });
+
+    $('.trigger').bind('touchstart', function (e) {
         $(this).trigger('click');
         e.preventDefault();
     });
 
-    $.mobile.loading( 'show', { theme: "b", text: "", textonly: false});
+    $.mobile.loading('show', {
+        theme: "b",
+        text: "",
+        textonly: false
+    });
 
 });
+

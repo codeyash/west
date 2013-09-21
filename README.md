@@ -23,13 +23,16 @@ Once your scripts are set up, you need to create your ```html``` document. I wou
 ```
 Next is the actual navigation itself.
 ```
-<nav class="slideWrap">
-	<ul class="orderSlide">
-		<li><a href="#">List Item</a></li>
-		<li><a href="#">List Item</a></li>
-		<li><a href="#">List Item</a></li>
-		<li><a href="#">List Item</a></li>
-	</ul>
+<nav class="navWrap">
+    <button data-role="none" class="trigger">&#9776;</button>
+    <ul class="mainList">
+        <li><a href="#">Menu Item</a></li>
+        <li><a href="#">Menu Item</a></li>
+        <li><a href="#">Menu Item</a></li>
+        <li><a href="#">Menu Item</a></li>
+        <li><a href="#">Menu Item</a></li>
+        <li><a href="#">Menu Item</a></li>
+    </ul>
 </nav>
 ```
 
