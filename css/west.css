@@ -50,7 +50,11 @@ a:hover {
 
 body {
   overflow-x: hidden; 
+<<<<<<< HEAD
   font:16px/1.4em "Helvetica Neue", Arial;
+=======
+  font:16px/1.4em "Source Sans Pro";
+>>>>>>> 4cb7c8c89443b6abe2ffb4ecb41fd3c68443e1b5
 }
 
 .nav-btn {
@@ -68,6 +72,23 @@ body {
   padding-top:4px;
   padding-bottom:6px;
   cursor: pointer;
+}
+
+.wraps {
+    width:50%;
+    max-width:500px;
+    margin:0 auto;
+}
+
+h1 {
+    font-size:2em;
+    margin-bottom:30px;
+}
+
+p {
+    margin-bottom:50px;
+    line-height:150%;
+    word-spacing:3px;
 }
 
 .slideWrap {
@@ -114,15 +135,40 @@ body.is-offscreen .slideWrap{
 
 /* small */
  @media (max-width: 480px) {
+<<<<<<< HEAD
 
+=======
+    .wraps {
+        width:90%;
+        min-width: 50px;
+        padding:30px;
+    }
+>>>>>>> 4cb7c8c89443b6abe2ffb4ecb41fd3c68443e1b5
 }
 
 /* tablet */
  @media (max-width: 800px) {
+<<<<<<< HEAD
 
+=======
+    .wraps {
+        width:80%;
+        min-width:600px;
+        padding:30px;
+    }
+>>>>>>> 4cb7c8c89443b6abe2ffb4ecb41fd3c68443e1b5
 }
 
 /* small desktop */
  @media (min-width: 800px) and (max-width: 1100px) {
+<<<<<<< HEAD
 
 }
+=======
+    .wraps {
+        width:70%;
+        min-width:600px;
+        padding:30px;
+    }
+}
+>>>>>>> 4cb7c8c89443b6abe2ffb4ecb41fd3c68443e1b5
