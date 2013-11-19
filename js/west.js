@@ -12,6 +12,8 @@ $(function () {
         $('.navWrap').addClass('open');
     });
 
+    $( ".trigger" ).draggable();
+
     $('.trigger').bind('touchstart', function (e) {
         $(this).trigger('click');
         e.preventDefault();
@@ -24,4 +26,3 @@ $(function () {
     });
 
 });
-
