@@ -1,4 +1,4 @@
-$(function () {
+ $(function () {
 
     $(".trigger").click(function () {
         $('.navWrap').toggleClass('open');
