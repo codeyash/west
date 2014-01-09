@@ -17,7 +17,7 @@ section {
 }
 
 body {
-  background: url('../default-image.jpg') no-repeat center center fixed; 
+  background: url('../default-image.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -39,7 +39,7 @@ body {
   font-size:2em;
   cursor:pointer;
   outline:none;
-  z-index:10000000000000;
+  z-index:100;
 }
 
 .navWrap {
